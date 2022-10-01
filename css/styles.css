@@ -34,6 +34,7 @@ body {
    line-height: 1.19;
    letter-spacing: 0.03em;
    text-decoration: none;
+   color: #000000;
 }
 .logo-conteiner {
    color: var(--acent-color);
@@ -140,11 +141,11 @@ body {
 
 /* Команда */
 .command-title {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.16;
-letter-spacing: 0.03em;
-color: var(--primery-text-color);
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.16;
+   letter-spacing: 0.03em;
+   color: var(--primery-text-color);
 }
 .command-name {
    font-weight: 500;
@@ -160,12 +161,22 @@ color: var(--primery-text-color);
    color: var(--title-text-color);
 }
 
+/* Футер */
+.logotipes {
+   font-family: 'Raleway';
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.19;
+   letter-spacing: 0.03em;
+   text-decoration: none;
+   color: var(--White);
+}
 /* Адрес */
 .address {
-font-family: 'Roboto';
-font-style: normal;
-letter-spacing: 0.03em;
-background-color: var(--secondaly);
+   font-family: 'Roboto';
+   font-style: normal;
+   letter-spacing: 0.03em;
+   background-color: var(--secondaly);
 }
 .address-name {
    line-height: 1.7;
